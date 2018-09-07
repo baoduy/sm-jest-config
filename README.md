@@ -1,6 +1,6 @@
 # sm-jest-config
 
-the sub-module of jest configuration for unit tests.
+The Jest configuration for Js and Typescript Node MODULE development. For SPA please [use this one instead](https://github.com/baoduy/sm-spa-jest-config)
 
 ## The Sub-module path
 
