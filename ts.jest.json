@@ -6,7 +6,7 @@
     "!<rootDir>/node_modules/",
     "!<rootDir>/lib/"
   ],
-  "setupTestFrameworkScriptFile": "<rootDir>/configs/jest/ts.testSetup.js",
+  "setupFilesAfterEnv": ["<rootDir>/configs/jest/ts.testSetup.js"],
   "setupFiles": ["<rootDir>/configs/jest/__mocks__/shim.js"],
   "roots": ["<rootDir>/tests/"],
   "moduleNameMapper": {
